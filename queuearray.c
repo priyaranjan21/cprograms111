@@ -175,7 +175,18 @@ int main(){
    case 7:{
    	//circiular queue;
    	//Insertion
-   	
+   	if(rear==MAX-1){
+   		printf("overflow");
+	   }
+	else{
+		if(rear==-1 && front ==-1){
+			front=0;
+			rear=0;
+			arr[front];
+		}else{
+			
+		}
+	}
 	break;
    }
    case 8:{
